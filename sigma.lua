@@ -135,9 +135,9 @@ example:AddButton("Plush Ink King (2)", function(state)
 
 game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args))
 end)
-example:AddButton("Shiny Johnoloshka (2)", function(state)
+example:AddButton("Drakobloxxer (2)", function(state)
     local args = {
-    [1] = "Shiny Johnoloshka",
+    [1] = "Drakobloxxer",
     [2] = CFrame.new(-79.49679565429688, 15.543547630310059, 375.76800537109375, 1, -1.5276668818842154e-13, -1.8189894035458565e-12, -2.4868995751603507e-14, 1, 0, -1.8189894035458565e-12, -7.951055210785476e-20, 1)
 }
 
