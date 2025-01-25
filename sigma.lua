@@ -208,14 +208,6 @@ local example = library:CreateWindow({
   example:AddButton("Макрос фнаф 9", function(state)
         loadstring(game:HttpGet('https://raw.githubusercontent.com/adoflgitler/vai-sigma-pyhka/refs/heads/main/ваи%20жёстко%20читики.lua', true))()
     end)
-  example:AddButton("Open all", function(state)
-        local args = {
-    [1] = 1000
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Game"):WaitForChild("Functions"):WaitForChild("SummonTower"):InvokeServer(unpack(args))
-
-  end)
     example:AddButton("TP UCN", function(state)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-73.59772491455078, 17.536182403564453, 373.1691589355469)
         
