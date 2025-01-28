@@ -27,7 +27,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("Spa
 
 game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args))
 end)
-example:AddButton("Plush Ink King (1)", function(state)
+example:AddButton("Plush Ink King (2)", function(state)
     local args = {
     [1] = "Plush Ink King",
     [2] = CFrame.new(58.763099670410156, 4.514297008514404, 252.5466766357422, 1, 0, 0, 0, 1, 0, 0, 0, 1)
@@ -59,17 +59,9 @@ example:AddButton("Monster Amanda (1)", function(state)
 
 game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args))
 end)
-example:AddButton("Shiny Dr. Kleiner (2)", function(state)
+example:AddButton("Huggy Wuggy (3)", function(state)
     local args = {
-    [1] = "Shiny Dr. Kleiner",
-    [2] = CFrame.new(67.65115356445312, 4.412768363952637, 254.01071166992188, 1, 0, 0, 0, 1, 0, 1.1299129043302225e-33, -2.5849394142282115e-26, 1)
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args))
-end)
-example:AddButton("Dr. Kleiner (2)", function(state)
-    local args = {
-    [1] = "Dr. Kleiner",
+    [1] = "Huggy Wuggy",
     [2] = CFrame.new(67.65115356445312, 4.412768363952637, 254.01071166992188, 1, 0, 0, 0, 1, 0, 1.1299129043302225e-33, -2.5849394142282115e-26, 1)
 }
 
@@ -127,7 +119,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("Spa
 
 game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args))
 end)
-example:AddButton("Plush Ink King (1)", function(state)
+example:AddButton("Plush Ink King (2)", function(state)
     local args = {
     [1] = "Plush Ink King",
     [2] = CFrame.new(-79.39185333251953, 16.818370819091797, 370.3825378417969, 1, -0.000005665861863235477, -0.00007713301602052525, 0.000005659944690705743, 1, -0.00007671355706406757, 0.0000771334525779821, 0.00007671311323065311, 1)
@@ -143,17 +135,9 @@ example:AddButton("Drakobloxxer (2)", function(state)
 
 game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args))
 end)
-example:AddButton("Shiny Dr. Kleiner (2)", function(state)
+example:AddButton("Huggy Wuggy (3)", function(state)
     local args = {
-    [1] = "Shiny Dr. Kleiner",
-    [2] = CFrame.new(-80.98019409179688, 16.266523361206055, 376.335205078125, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args))
-end)
-example:AddButton("Dr. Kleiner (2)", function(state)
-    local args = {
-    [1] = "Dr. Kleiner",
+    [1] = "Huggy Wuggy",
     [2] = CFrame.new(-80.98019409179688, 16.266523361206055, 376.335205078125, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 }
 
