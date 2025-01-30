@@ -189,8 +189,19 @@ game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("Spa
 local example = library:CreateWindow({
         text = "Misc"
       }) 
+  example:AddButton("Open all", function(state)
+        local args = {
+    [1] = 10000
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Game"):WaitForChild("Functions"):WaitForChild("SummonTower"):InvokeServer(unpack(args))
+
+  end)
   example:AddButton("Макрос фнаф 9", function(state)
         loadstring(game:HttpGet('https://raw.githubusercontent.com/adoflgitler/vai-sigma-pyhka/refs/heads/main/ваи%20жёстко%20читики.lua', true))()
+    end)
+  example:AddButton("Макрос Level 5", function(state)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/adoflgitler/sigmafreh/refs/heads/main/e.lua', true))()
     end)
     example:AddButton("TP UCN", function(state)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-73.59772491455078, 17.536182403564453, 373.1691589355469)
