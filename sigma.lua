@@ -43,17 +43,17 @@ example:AddButton("1x1x1x1 (1)", function(state)
 
 game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args))
 end)
-example:AddButton("Shiny Monster Amanda (1)", function(state)
+example:AddButton("The Entity (1)", function(state)
     local args = {
-    [1] = "Shiny Monster Amanda",
+    [1] = "The Entity",
     [2] = CFrame.new(63.532073974609375, 3.972076416015625, 254.46435546875, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args))
 end)
-example:AddButton("Monster Amanda (1)", function(state)
+example:AddButton("Shiny The Entity (1)", function(state)
     local args = {
-    [1] = "Monster Amanda",
+    [1] = "Shiny The Entity",
     [2] = CFrame.new(63.532073974609375, 3.972076416015625, 254.46435546875, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 }
 
@@ -159,18 +159,18 @@ example:AddButton("Blue Friend (2)", function(state)
 
 game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args))
 end)
-example:AddButton("Monster Amanda (1)", function(state)
+example:AddButton("The Entity (1)", function(state)
         local args = {
-    [1] = "Monster Amanda",
+    [1] = "The Entity",
     [2] = CFrame.new(-76.95560455322266, 17.72355842590332, 373.2475280761719)
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args))
 
 end)
-example:AddButton("Shiny Monster Amanda (1)", function(state)
+example:AddButton("Shiny The Entity (1)", function(state)
         local args = {
-    [1] = "Shiny Monster Amanda",
+    [1] = "Shiny The Entity",
     [2] = CFrame.new(-76.95560455322266, 17.72355842590332, 373.2475280761719)
 }
 
