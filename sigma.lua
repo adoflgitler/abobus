@@ -2,51 +2,51 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco
 local example = library:CreateWindow({
         text = "Misc"
       }) 
-  example:AddButton("Open all", function(state)
+example:AddButton("Open all", function(state)
         local args = {
     [1] = 10000
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Game"):WaitForChild("Functions"):WaitForChild("SummonTower"):InvokeServer(unpack(args))
 
-  end)
+end)
   example:AddButton("5 макрос", function(state)
         loadstring(game:HttpGet('https://raw.githubusercontent.com/adoflgitler/vai-sigma-pyhka/refs/heads/main/ваи%20жёстко%20читики.lua', true))()
-    end)
+end)
     example:AddButton("TP UCN", function(state)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-73.59772491455078, 17.536182403564453, 373.1691589355469)
         
-    end)
-  example:AddButton("SKIP", function(state)
+end)
+example:AddButton("SKIP", function(state)
         game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("VoteSkip"):InvokeServer()
         
-    end)
+end)
 example:AddButton("ExitGame", function(state)
         game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ExitGame"):FireServer()
 
-    end)
+end)
     local example = library:CreateWindow({
       text = "UCN"
     })
-    example:AddButton("vote for UCN", function(state)
-        local args = {
+example:AddButton("vote for UCN", function(state)
+    local args = {
     [1] = "UCN"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("VoteForMap"):FireServer(unpack(args))
 
-    end)
-    example:AddButton("Baldi (2)", function(state)
-        local args = {
+end)
+example:AddButton("Baldi (2)", function(state)
+    local args = {
     [1] = "Baldi",
     [2] = CFrame.new(-74.0192642211914, 15.543546676635742, 372.6418151855469, 1, 9.912071163853398e-13, -1.1102230246251565e-16, -1.1546319456101628e-12, 1, 0, -1.1102230246251565e-16, -4.852938971426682e-24, 1)
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args))
 
-    end)
-  example:AddButton("Shiny Disco Freddy (1)", function(state)
-      local args = {
+end)
+example:AddButton("Shiny Disco Freddy (1)", function(state)
+    local args = {
     [1] = "Shiny Disco Freddy",
     [2] = CFrame.new(-74.0192642211914, 15.543546676635742, 372.6418151855469, 1, 9.912071163853398e-13, -1.1102230246251565e-16, -1.1546319456101628e-12, 1, 0, -1.1102230246251565e-16, -4.852938971426682e-24, 1)
 }
