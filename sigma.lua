@@ -10,10 +10,10 @@ example:AddButton("Open all", function(state)
 game:GetService("ReplicatedStorage"):WaitForChild("Game"):WaitForChild("Functions"):WaitForChild("SummonTower"):InvokeServer(unpack(args))
 
 end)
-  example:AddButton("5 макрос", function(state)
+example:AddButton("5 макрос", function(state)
         loadstring(game:HttpGet('https://raw.githubusercontent.com/adoflgitler/vai-sigma-pyhka/refs/heads/main/ваи%20жёстко%20читики.lua', true))()
 end)
-    example:AddButton("TP UCN", function(state)
+example:AddButton("TP UCN", function(state)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-73.59772491455078, 17.536182403564453, 373.1691589355469)
         
 end)
