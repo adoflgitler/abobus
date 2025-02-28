@@ -25,7 +25,7 @@ example:AddButton("ExitGame", function(state)
         game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ExitGame"):FireServer()
 
 end)
-    local example = library:CreateWindow({
+local example = library:CreateWindow({
       text = "UCN"
     })
 example:AddButton("vote for UCN", function(state)
